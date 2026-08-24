@@ -10,11 +10,7 @@ This file is the SINGLE SOURCE OF TRUTH. Read it fully before writing any code. 
 
 - Legal name: **Jacobson Construction & Design LLC**
 - Tagline: **"Residential & Commercial Construction — Building Your Dreams, One Project at a Time"**
-- Phone: **(507) 211-1111** → link `tel:+15072111111` (tap-to-call, visible in header on every page)
-- Email: **info@jacobsonconstructionanddesign.com**
-- Trust signals: **Licensed & Insured · Family-Owned · Real Project Photos**
-- Instagram: @jacobsonconstructionanddesign
-- **DO NOT invent:** years in business, project counts, employee names, named testimonials, awards, certifications beyond "Licensed & Insured".
+- Phone: **(507) 211-1111** → link `tel:+15072111111"Licensed & Insured".
 
 ## 2. Design tokens (defined in css/styles.css — use ONLY these)
 
@@ -101,8 +97,7 @@ Every page loads `<script src="scripts.js" defer></script>` before `</body>`.
 ## 6. Page recipes
 
 ### index.html — HOME (flagship)
-1. **Hero** — full-width, min 80vh, dark overlay. Background: best available photo (see Asset Map). Content: monogram logo, h1 "Building Your Dreams, One Project at a Time", sub-line "Residential & Commercial Construction — Licensed & Insured", dual CTA [btn-primary "Get a Free Estimate" → estimate.html] [btn-outline "Call (507) 211-1111" → tel:], trust chips row (Licensed & Insured · Family-Owned · Free Estimates).
-2. **Trust bar** — full-width charcoal strip: "Licensed & Insured" | "Family-Owned" | "One Project at a Time" | "Serving Southern MN".
+1. **Hero** — full-width, min 80vh, dark overlay. Background: best available photo (see Asset Map). Content: monogram logo, h1 "Building Your Dreams, One Project at a Time", sub-line "Residential & Commercial Construction — Licensed & Insured", dual CTA [btn-primary "Get a Free Estimate" → estimate.html] [btn-outline "Call (507) 211-1111" → tel:+15072111111"Licensed & Insured" | "Family-Owned" | "One Project at a Time" | "Serving Southern MN".
 3. **Services** — 4 cards: Residential New Build & Remodel / Commercial & Municipal / Metal Buildings / Interior Finish & Design. Each: title, 2-3 bullets, "Learn more →" to services.html.
 4. **Featured Projects** — 3-6 real photos grid (use confirmed project photos), each captioned; "View full portfolio →" to portfolio.html.
 5. **Why Choose Jacobson** — two-column: family photo (img_85c73acc7417.jpg cropped tight) + copy: family-owned, one project at a time, real craftsmanship, licensed & insured. Plus the lockup logo (img_4bfbf4f96ac0.jpg).
