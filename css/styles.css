@@ -98,6 +98,7 @@ p { margin-bottom: 12px; }
   position: absolute; inset: 0;
   background: linear-gradient(180deg, rgba(11,15,20,0.78) 0%, rgba(11,15,20,0.55) 55%, rgba(11,15,20,0.85) 100%);
 }
+.hero--home { background-image: url('../images/img_612ba8db6c93.jpg'); }
 .hero-content { position: relative; z-index: 2; max-width: 780px; padding: 96px 24px; color: var(--white); }
 .hero-logo { height: 84px; width: auto; margin-bottom: 28px; border-radius: 6px; }
 .hero h1 { color: var(--white); margin-bottom: 18px; }
@@ -163,6 +164,7 @@ body.lightbox--open { overflow: hidden; }
 /* ---------- Why / story ---------- */
 .story-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
 .story-grid img { border-radius: var(--radius); box-shadow: var(--shadow-lg); width: 100%; object-fit: cover; }
+.story-photo { aspect-ratio: 4 / 3; }
 .story-logo { height: 64px; width: auto; margin-bottom: 16px; border-radius: 4px; }
 
 /* ---------- Testimonials ---------- */
@@ -220,6 +222,8 @@ body.lightbox--open { overflow: hidden; }
 
 /* ---------- Footer ---------- */
 .site-footer { background: var(--charcoal-950); color: var(--white); border-top: 3px solid var(--amber-500); }
+.footer-brand { display: flex; flex-direction: column; align-items: flex-start; }
+.lightbox-img { max-width: 90vw; max-height: 85vh; border-radius: var(--radius); }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.2fr; gap: 40px; padding-top: 56px; padding-bottom: 48px; }
 .footer-logo { height: 56px; width: auto; margin-bottom: 16px; border-radius: 4px; }
 .footer-tagline { color: rgba(255,255,255,0.75); max-width: 320px; }
