@@ -161,6 +161,14 @@ p { margin-bottom: 12px; }
 body.lightbox--open .lightbox { display: flex; }
 body.lightbox--open { overflow: hidden; }
 
+/* Text wordmark lockup (used where the photo logo is cropped) */
+.text-lockup { font-family: var(--font-display); font-weight: 700; line-height: 1.05; letter-spacing: 0.02em; }
+.text-lockup--dark { color: var(--charcoal-900); }
+.text-lockup--light { color: var(--white); }
+.tl-line1 { display: block; font-size: 2.4rem; text-transform: uppercase; }
+.tl-line2 { display: block; font-size: 1.05rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--gray-500); margin-top: 6px; }
+.text-lockup--light .tl-line2 { color: rgba(255,255,255,0.7); }
+
 /* ---------- Why / story ---------- */
 .story-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
 .story-grid img { border-radius: var(--radius); box-shadow: var(--shadow-lg); width: 100%; object-fit: cover; }
