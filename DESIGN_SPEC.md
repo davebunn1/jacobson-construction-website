@@ -10,7 +10,7 @@ This file is the SINGLE SOURCE OF TRUTH. Read it fully before writing any code. 
 
 - Legal name: **Jacobson Construction & Design LLC**
 - Tagline: **"Residential & Commercial Construction — Building Your Dreams, One Project at a Time"**
-- Phone: **(507) 211-1111** → link `tel:+15072111111"Licensed & Insured".
+- Phone: **(507) 774-9924** → link `tel:+15077749924"Licensed & Insured".
 
 ## 2. Design tokens (defined in css/styles.css — use ONLY these)
 
@@ -41,7 +41,7 @@ This file is the SINGLE SOURCE OF TRUTH. Read it fully before writing any code. 
       <a href="gallery.html">Gallery</a>
       <a href="about.html">About</a>
       <a href="estimate.html" class="btn btn-primary nav-cta">Get a Free Estimate</a>
-      <a href="tel:+15072111111" class="nav-phone">(507) 211-1111</a>
+      <a href="tel:+15077749924" class="nav-phone">(507) 774-9924</a>
     </nav>
     <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
       <span></span><span></span><span></span>
@@ -78,8 +78,8 @@ This file is the SINGLE SOURCE OF TRUTH. Read it fully before writing any code. 
     </div>
     <div class="footer-col">
       <h3>Contact</h3>
-      <a href="tel:+15072111111">(507) 211-1111</a>
-      <a href="mailto:info@jacobsonconstructionanddesign.com">info@jacobsonconstructionanddesign.com</a>
+      <a href="tel:+15077749924">(507) 774-9924</a>
+      <a href="mailto:jconstructiondesign@outlook.com">jconstructiondesign@outlook.com</a>
       <span>Serving Austin, Albert Lea &amp; Southern Minnesota</span>
     </div>
   </div>
@@ -97,7 +97,7 @@ Every page loads `<script src="scripts.js" defer></script>` before `</body>`.
 ## 6. Page recipes
 
 ### index.html — HOME (flagship)
-1. **Hero** — full-width, min 80vh, dark overlay. Background: best available photo (see Asset Map). Content: monogram logo, h1 "Building Your Dreams, One Project at a Time", sub-line "Residential & Commercial Construction — Licensed & Insured", dual CTA [btn-primary "Get a Free Estimate" → estimate.html] [btn-outline "Call (507) 211-1111" → tel:+15072111111"Licensed & Insured" | "Family-Owned" | "One Project at a Time" | "Serving Southern MN".
+1. **Hero** — full-width, min 80vh, dark overlay. Background: best available photo (see Asset Map). Content: monogram logo, h1 "Building Your Dreams, One Project at a Time", sub-line "Residential & Commercial Construction — Licensed & Insured", dual CTA [btn-primary "Get a Free Estimate" → estimate.html] [btn-outline "Call (507) 774-9924" → tel:+15077749924"Licensed & Insured" | "Family-Owned" | "One Project at a Time" | "Serving Southern MN".
 3. **Services** — 4 cards: Residential New Build & Remodel / Commercial & Municipal / Metal Buildings / Interior Finish & Design. Each: title, 2-3 bullets, "Learn more →" to services.html.
 4. **Featured Projects** — 3-6 real photos grid (use confirmed project photos), each captioned; "View full portfolio →" to portfolio.html.
 5. **Why Choose Jacobson** — two-column: family photo (img_85c73acc7417.jpg cropped tight) + copy: family-owned, one project at a time, real craftsmanship, licensed & insured. Plus the lockup logo (img_4bfbf4f96ac0.jpg).
@@ -162,7 +162,7 @@ Every page loads `<script src="scripts.js" defer></script>` before `</body>`.
 **Rule for unconfirmed:** you MAY call vision_analyze on up to 6 images to find hero/gym/water-plant candidates. For captions, use generic section captions unless you confirmed the content. NEVER caption something you haven't confirmed.
 
 ## 8. Copy rules
-- Primary CTA text: **"Get a Free Estimate"** everywhere. Secondary: "Call (507) 211-1111".
+- Primary CTA text: **"Get a Free Estimate"** everywhere. Secondary: "Call (507) 774-9924".
 - Testimonials = GENERIC placeholders only, e.g. "Beautiful work — we couldn't be happier with our new space." — *Homeowner, Austin MN*. Max 3. No real names.
 - No lorem ipsum. No stock-photo language. No "YOUR LOGO HERE".
 - `alt` text on every image (descriptive, e.g. "Commercial gym fit-out by Jacobson Construction").

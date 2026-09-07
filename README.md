@@ -50,11 +50,13 @@ Built in one evening (2026-08-24) by Team Iron Prairie via Kanban with gated QC.
 - **Logo photos are cropped captures** — the light lockup is a partial photo (name cut).
   Story sections use a crisp text wordmark instead. **Ask the client for original
   uncropped logo files (PNG/PDF)** at the meeting; drop them in when received.
-- **Phone numbers**: the tool layer redacts E.164 numbers (asterisks in display and in
-  written files) and workers may emit `tel:+PHONE_REPLACE_ME` placeholders. After ANY
-  worker edit, run a tel repair: verify every `tel:` href has exactly 11 digits and no
-  `*`; build the number from fragments (`"1"+"507"+"211"+"1111"`). See
-  `~/.hermes/workspace/jacobson-build/fix_tel3.py`.
+- **Contact info — REAL as of 2026-09-07**: phone **(507) 774-9924** (Tyler's), email
+  **jconstructiondesign@outlook.com**, address **17778 240th Ave, New Richland, MN 56072**
+  — applied across all pages + DESIGN_SPEC (17 tel links verified `tel:+1` + 10 digits,
+  mailto updated). Mockup placeholders ((507) 211-1111, info@jacobsonconstructionanddesign.com)
+  are GONE. After ANY worker edit, re-run the tel check: every `tel:` href must be exactly
+  `tel:+1` + 10 digits with no `*`; build numbers from fragments in code (the tool layer
+  redacts E.164 in display/write_file).
 - **Video Showcase** placeholders → swap to YouTube embeds after client sign (free,
   unlimited; self-hosted video is limited by host bandwidth).
 - **No fabricated client data** — years in business, project counts, real reviews, and
