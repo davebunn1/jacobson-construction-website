@@ -53,7 +53,7 @@ Built in one evening (2026-08-24) by Team Iron Prairie via Kanban with gated QC.
 - **Contact info — REAL as of 2026-09-07**: phone **(507) 774-9924** (Tyler's), email
   **jconstructiondesign@outlook.com**, address **17778 240th Ave, New Richland, MN 56072**
   — applied across all pages + DESIGN_SPEC (17 tel links verified `tel:+1` + 10 digits,
-  mailto updated). Mockup placeholders ((507) 211-1111, info@jacobsonconstructionanddesign.com)
+  mailto updated). Mockup placeholders (the old N11 line and the dead-domain email)
   are GONE. After ANY worker edit, re-run the tel check: every `tel:` href must be exactly
   `tel:+1` + 10 digits with no `*`; build numbers from fragments in code (the tool layer
   redacts E.164 in display/write_file).
